@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Window</title>
+    <link rel="stylesheet" href="modal.css" />
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body class="bg-green-500">
+    <div class="pt-8 pl-8 flex justify-center">
+      <div class="show-modal">
+        <button class="btn mb-9">Show Modal 1</button>
+      </div>
+
+      <div class="show-modal"><button class="btn">Show Modal 2</button></div>
+
+      <div class="show-modal">
+        <button class="btn">Show Modal 3</button>
+      </div>
+    </div>
+
+    <div class="modal hidden flex justify-center">
+      <div class="bg-white w-[300px] p-6 pt-12 relative">
+        <div class="close-modal absolute top-2 right-3 cursor-pointer">
+          <p class="text-[15px]">X</p>
+        </div>
+        <p class="font-sans font-serif text-black">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          exercitationem sed facilis, deserunt architecto veniam voluptates cum
+          cumque, debitis sit optio suscipit libero. Id aliquam autem eius
+          reprehenderit laborum. Aspernatur! cum cumque, debitis sit optio
+          suscipit libero. Id aliquam autem eius reprehenderit laborum.
+          Aspernatur cum cumque, debitis sit optio suscipit libero. Id aliquam
+          autem eius reprehenderit laborum. Aspernatur
+        </p>
+      </div>
+    </div>
+
+    <script src="/src/modal.js"></script>
+  </body>
+</html>
